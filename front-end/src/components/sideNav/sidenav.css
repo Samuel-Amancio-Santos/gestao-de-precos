@@ -1,0 +1,42 @@
+.border {
+    border: 1px solid red;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 145;
+    height: 100%;
+    padding: 40px 10px 30px 10px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.sidebar-header{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.logo-perfil {
+    width: 60px;
+    min-height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.logo-perfil:hover {
+    transform: scale(1.5);
+}
+
+.sidebar button {
+    height: 50px;
+    width: 100%;
+    background: white;
+    border: transparent;
+    
+
+}
+
